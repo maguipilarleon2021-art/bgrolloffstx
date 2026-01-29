@@ -1,0 +1,172 @@
+    <br><br><br><br>
+
+<div id="faq-section" class="faq-section-wrapper">
+
+  <style>
+    /* ============== Scoped FAQ styles ============== */
+    .faq-section-wrapper {
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #715215 0%, #17568e 50%, #50642c 100%);
+      border-radius: 16px;
+      color: #e0e0e0;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      margin: 0 15px;
+    }
+
+    .faq-section-wrapper .faq-title {
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: antiquewhite;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      margin-bottom: 2.5rem;
+    }
+
+    .faq-section-wrapper .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .faq-section-wrapper .faq-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .faq-section-wrapper .faq-item {
+      background: rgba(255,255,255,0.92);
+      color: #222;
+      padding: 1.6rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .faq-section-wrapper .faq-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+    }
+
+    .faq-section-wrapper .faq-question {
+      margin: 0 0 0.9rem 0;
+      font-size: 1.32rem;
+      font-weight: 700;
+      color: #0d47a1;
+      line-height: 1.35;
+    }
+
+    .faq-section-wrapper .faq-answer {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Make the image side sticky/fixed on scroll */
+    .faq-section-wrapper .faq-image-side {
+      position: sticky;
+      top: 20px; /* Adjust this value if you have a fixed navbar/header (e.g., 80px or 100px) */
+      align-self: start; /* Keeps it aligned to the top of the grid row */
+      height: fit-content; /* Prevents stretching */
+    }
+
+    .faq-section-wrapper .faq-image-side img {
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 16px 38px rgba(0,0,0,0.25);
+      object-fit: cover;
+    }
+
+    /* Mobile: Disable sticky behavior and revert to normal flow */
+    @media (max-width: 992px) {
+      .faq-section-wrapper .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .faq-section-wrapper .faq-title {
+        font-size: 2.1rem;
+      }
+
+      .faq-section-wrapper .faq-image-side {
+        position: static; /* No sticky on mobile */
+        top: auto;
+      }
+    }
+  </style>
+
+  <div class="faq-wrapper">
+    <h2 class="faq-title" style="font-size: 35px;">Frequently Asked Questions</h2>
+
+    <div class="faq-grid">
+      <!-- Left column - Questions & Answers -->
+      <div class="faq-content">
+        <div class="faq-item">
+          <h4 class="faq-question">1. How do I know what size container my sensitive project needs?</h4>
+          <div class="faq-answer">
+            Trust your intuition, and let us help. There is no pressure. Tell us about the space you are working with. A 10 yard dumpster is perfect for a single room or a pre-move purge. A 20 yard dumpster is better for a full house or an estate. We can find the size that feels right for you.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">2. I’m worried about my neighbors. Is the dumpster going to be a huge eyesore?</h4>
+          <div class="faq-answer">
+            We are very mindful of the energy we bring into a neighborhood. Our roll off containers are exceptionally clean and well-maintained. We see them as professional tools, and we keep them in a condition that reflects a deep respect for you and your sanctuary.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">3. What if the emotional work of my cleanout takes longer than I thought?</h4>
+          <div class="faq-answer">
+            The soul works on its own timeline. We honor that. Our standard rental period is spacious to allow for this. If you need more time to move through your process, we offer simple and flexible extensions. There is no rush.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">4. What is the most important thing I can do to prepare my space for the dumpster’s arrival?</h4>
+          <div class="faq-answer">
+            Create an intention. Before we arrive, take a moment. Light some sage, play some calming music, or simply state aloud what you are intending to release. This small ritual can infuse the entire process with a sense of sacred purpose.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">5. I have items that are emotionally charged, but I know I need to let them go. Any advice?</h4>
+          <div class="faq-answer">
+            Be gentle with yourself. This is the heart of the work. For these items, you might create a small ritual of release. Thank the object for the story it held for you. Acknowledge the memory. And then, when you are ready, place it in the vessel. The dumpster is strong enough to hold it.
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif">
+          <a href="tel:850-332-9639" class="btn-hover-bg btn btn-secondary text-white py-2 px-4 me-3" style="background-color: red; border: solid white; font-size:medium;">CLICK HERE TO CALL US (850) 332-9639</a>
+        </div>
+      </div>
+
+      <!-- Right column - Image (now sticky on desktop) -->
+      <div class="faq-image-side">
+        <img src="static/img/lockley.jpg" alt="Dumpster Rental Unit" />
+      </div>
+    </div>
+  </div>
+</div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">States In USA</h2>
+        <div class="row">
+            aloomaidallfotter
+        </div>
+        </section>
+    </div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">Most popular cities we serve</h2>
+        <div class="row">
+            aloomaidallfottecity
+        </div>
+        </section>
+    </div>
